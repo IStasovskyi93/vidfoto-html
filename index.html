@@ -11,15 +11,30 @@
             alt="picture from mdn Moxilla" title="What is it" width="200px" height="171px">
         <figcaption>Title under image dinosaur</figcaption>
     </figure>
-    <video controls width="200" height="400" poster="images/IMG_7767.jpg">
+    <video controls width="200" height="400" poster="images/eiffel.jpg">
         <source src="videos/IMG_7809.MOV" type="video/MOV">
         <source src="videos/IMG_7809.MOV" type="video/webm">
         <p>Your browser is old, than you can <a href="videos/IMG_7809.MOV">watch</a> video</p>
     </video>
-    <audio controls>
-        <source src="videos/Akon, Eminem – Smack That.mp3" type="audio/mp3">
-        <source src="videos/Akon, Eminem – Smack That.mp3" type="audio/ogg">
-        <p>If you browser old, listening <a href="videos/Akon, Eminem – Smack That.mp3">there</a>.</p>
-    </audio>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/GHOZTre6m3A?si=Jkqr-hEgoyicxrMU" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+        gyroscope; picture-in-picture; web-share" allowfullscreen>
+    </iframe>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d4868.853230149217!2d16.915359097635726!3d52.39894397415981!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spl!2spl!4v1710533381721!5m2!1spl!2spl" 
+        width="600" height="450" 
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <img 
+        srcset="
+            images/paris-320px.jpg 320w,
+            images/paris-800px.jpg 800w,
+            images/paris-1200px.jpg 1200w
+        "
+        sizes="
+            (max-width: 320px) 320px,
+            (max-width: 800px) 800px,
+            1200px"
+        src="images/paris-1200px.jpg" alt="eiffel tower in cloudy day">
 </body>
 </html>

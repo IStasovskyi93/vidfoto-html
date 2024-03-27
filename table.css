@@ -3,24 +3,31 @@ html {
 }
 h1 {
   text-align: center;
-  text-shadow: 2px 2px 1px rgb(81, 33, 143);
+  text-shadow: 2px 2px 0px rgb(81, 33, 143);
   font-size: 4em;
 }
 table {
-  /* border-collapse: collapse; */
+  border-collapse: collapse;
   border: 2px solid rgb(200,200,200);
   letter-spacing: 1px;
   font-size: 0.8rem;
 }
 
 td, th {
-  border: 1px solid rgb(190,190,190);
+  border: 1px solid rgb(89, 19, 110);
   padding: 10px 20px;
 }
+thead {
+  background: url(solen.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(205, 133, 230);
 
-th {
-  background-color: rgb(235,235,235);
 }
+
+/* th {
+  background-color: rgb(243, 149, 236);
+} */
 
 td {
   text-align: center;
@@ -36,5 +43,5 @@ tr:nth-child(odd) td {
 
 caption {
   padding: 10px;
-  
+  text-align: right;
 }
